@@ -1,0 +1,105 @@
+.count-btn {
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+
+.count{
+    font-size: 2rem;
+    padding: 0px 10px 0px 10px;
+    color: brown;
+}
+
+hr {
+    border: 5px solid black;
+}
+
+.useState-container-data {
+    background-color: beige;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0px auto 10px auto;
+    min-height: 200px;
+    box-shadow: 0px 0px 10px;
+}
+
+.useState-container-hidden {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0px auto 10px auto;
+    min-height: 200px;
+    box-shadow: 0px 0px 10px;
+}
+
+.todo-list {
+    list-style-type: none;
+    max-width: 800px;
+    margin: auto;
+}
+
+.todo-list li {
+    display: flex;
+    height: 60px;
+    padding-left: 5px;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding-right: 5px;
+}
+
+.todo-list li .todo-check {
+    text-align: left;
+    line-height: 60px;
+    width: 4%;
+}
+
+.todo-list li .todo-text {
+    text-align: left;
+    line-height: 60px;
+    width: 70%;
+}
+
+.todo-list li .todo-button {
+    width: 14%;
+    text-align: right;
+    line-height: 60px;
+}
+
+.todo-list li div button {
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 1rem auto;
+}
+
+.seperator {
+    border: 2px dashed green;
+}
+
+.todo-input {
+    height:30px;
+    padding: 5px;
+    margin-right: 10px;
+    border-style: dashed;
+    border-color: red;
+    outline: none;
+}
+
+.todo-btn {
+    padding: 5px;
+    font-size: 15px;
+    color: green;
+    letter-spacing: 1px;
+    width: 5rem;
+}
+
+.todo-btn:disabled {
+    color: red;
+}
