@@ -89,6 +89,8 @@
     height: 2rem;
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .nav-list-link::after {

@@ -11,6 +11,9 @@ import Home from "./Home";
 import UseReducerExample1 from "./Components/Hooks/useReducer/useReducer-Example-1";
 import Success from "./Components/React Router/Success";
 import NotFound from "./Components/React Router/NotFound";
+import NestedRouteIndex from "./Components/React Router/NestedRouteIndex";
+import NestedRoute1 from "./Components/React Router/NestedRoute1";
+import NestedRoute2 from "./Components/React Router/NestedRoute2";
 
 const PrintTime = () => {
   const [time, setTime] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }));
@@ -38,30 +41,36 @@ function App() {
       <Header />
       <PrintTime />
       <Routes>
-        <Route path='/' element={<Home />}></Route>
+        <Route path='/' element={<Home />} />
         {/* useState Examples */}
-        <Route path='/useState' element={<UseStateIndex />}></Route>
+        <Route path='/useState' element={<UseStateIndex />} />
 
         {/* useEffect Examples */}
-        <Route path='/useEffect' element={<UseEffectIndex />}></Route>
+        <Route path='/useEffect' element={<UseEffectIndex />} />
         
         {/* useContext Examples */}
-        <Route path='/useContext' element={<UseContextParent />}></Route>
+        <Route path='/useContext' element={<UseContextParent />} />
 
         {/* useReducer Examples */}
-        <Route path='/useReducer' element={<UseReducerExample1 />}></Route>
+        <Route path='/useReducer' element={<UseReducerExample1 />} />
         
         {/* useCallback & React.memo Examples */}
-        <Route path='/useCallback' element={<UseCallBackExample />}></Route>
+        <Route path='/useCallback' element={<UseCallBackExample />} />
         
         {/* Custom Hook Examples */}
-        <Route path='/customHooks' element={<CustomHookIndex />}></Route>
+        <Route path='/customHooks' element={<CustomHookIndex />} />
 
         {/* React Router Examples */}
         <Route path='/success' element={<Success />}></Route>
 
+        <Route path='/nestedRoutes' element={<NestedRouteIndex />}>
+          <Route index element={<NestedRoute1 />} />
+          <Route path='1' element={<NestedRoute1 />} />
+          <Route path='2' element={<NestedRoute2 />} />
+        </Route>
+
         {/* Default Router */}
-        <Route path="*" element={<NotFound />}></Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

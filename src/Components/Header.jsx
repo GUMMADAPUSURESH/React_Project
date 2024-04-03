@@ -3,12 +3,13 @@ import './header.css';
 import { NavLink} from 'react-router-dom';
 
 const hooks = [
-    {hook: 'useState', id: 'useState'},
-    {hook: 'useEffect', id: 'useEffect'},
-    {hook: 'useReducer', id: 'useReducer'},
-    {hook: 'useContext', id: 'useContext'},
-    {hook: 'useCallback', id: 'useCallback'},
-    {hook: 'Custom Hooks', id: 'customHooks'}
+    {navlink: 'useState', id: 'useState'},
+    {navlink: 'useEffect', id: 'useEffect'},
+    {navlink: 'useReducer', id: 'useReducer'},
+    {navlink: 'useContext', id: 'useContext'},
+    {navlink: 'useCallback', id: 'useCallback'},
+    {navlink: 'Custom Hooks', id: 'customHooks'},
+    {navlink: 'Nested Routes', id: 'nestedRoutes'}
 ]
 
 const Header = () => {
@@ -29,7 +30,7 @@ const Header = () => {
                         <li className='nav-list-link' key={eachHook.id}>
                             <NavLink to={`/${eachHook.id}`}>
                                 <button className='nav-button'>
-                                    <strong>{eachHook.hook}</strong>
+                                    <strong>{eachHook.navlink}</strong>
                                 </button>
                             </NavLink>
                         </li>
@@ -41,10 +42,10 @@ const Header = () => {
             <div className='nav-card' onMouseEnter={() => setCardHover(true)} onMouseLeave={() => setCardHover(false)}>
                 <ul className='nav-link-list'>
                     {hooks.map((eachHook) => {
-                        const {hook, id} = eachHook;
+                        const {navlink, id} = eachHook;
                         return(
                             <li key={id}>
-                                <a className='nav-link' href={`${id}`}>{hook}</a>
+                                <a className='nav-link' href={`${id}`}>{navlink}</a>
                             </li>
                         )
                     })}
