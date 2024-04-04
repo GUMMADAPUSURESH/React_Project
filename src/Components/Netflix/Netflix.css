@@ -1,0 +1,18 @@
+.movielink {
+    text-decoration: none;
+}
+
+.moviebanner {
+    width: 100%;
+}
+
+.movietitle {
+    line-height: 50px;
+    color: white;
+}
+
+.movie {
+    background: black;
+    box-shadow: 0px 0px 14px 1px rgba(0 0 0 / 40%);
+}
+
