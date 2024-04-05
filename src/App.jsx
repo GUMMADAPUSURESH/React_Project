@@ -14,6 +14,7 @@ import NotFound from "./Components/React Router/NotFound";
 import NestedRouteIndex from "./Components/React Router/NestedRouteIndex";
 import NestedRoute1 from "./Components/React Router/NestedRoute1";
 import NestedRoute2 from "./Components/React Router/NestedRoute2";
+import LifeCycleDemo from "./Components/LifeCycleDemo/LifeCycleDemo";
 
 const PrintTime = () => {
   const [time, setTime] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }));
@@ -68,6 +69,9 @@ function App() {
           <Route path='1' element={<NestedRoute1 />} />
           <Route path='2' element={<NestedRoute2 />} />
         </Route>
+
+        {/* React Life Cycle Examples */}
+        <Route path='/lifecycle' element={<LifeCycleDemo />} />
 
         {/* Default Router */}
         <Route path="*" element={<NotFound />} />
