@@ -41,7 +41,7 @@ class LifeCycleDemo extends React.Component {
       <div>
         <h2>LifeCycleDemo</h2>
         <button className="count-btn" onClick={this.changeState}>Change State</button>
-        <h3>{this.state.a}</h3>
+        <h2>{this.state.a}</h2>
       </div>
     );
   }
