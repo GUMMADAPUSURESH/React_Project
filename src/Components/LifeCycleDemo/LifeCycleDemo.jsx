@@ -39,9 +39,9 @@ class LifeCycleDemo extends React.Component {
     console.log('render');
     return (
       <div>
-        LifeCycleDemo
-        <button onClick={this.changeState}>Change State</button>
-        {this.state.a}
+        <h2>LifeCycleDemo</h2>
+        <button className="count-btn" onClick={this.changeState}>Change State</button>
+        <h3>{this.state.a}</h3>
       </div>
     );
   }
