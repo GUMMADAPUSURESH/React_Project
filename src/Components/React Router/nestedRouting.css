@@ -11,8 +11,10 @@
 
 .nested-card {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     height: 20rem;
     width: 30rem;
     background-color: aquamarine;

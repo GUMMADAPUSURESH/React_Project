@@ -10,7 +10,8 @@ const hooks = [
     {navlink: 'useCallback', id: 'useCallback'},
     {navlink: 'Custom Hooks', id: 'customHooks'},
     {navlink: 'Nested Routing', id: 'nestedRoutes'},
-    {navlink: 'Life Cycle', id: 'lifeCycle'}
+    {navlink: 'Life Cycle', id: 'lifeCycle'},
+    {navlink: 'Dynamic Routes', id: 'users'}
 ]
 
 const Header = () => {

@@ -3,6 +3,7 @@ import movieData from './Json/MovieData.json';
 import Comment from './Components/Comment/Comment';
 import Index from "./Components/Netflix/Index";
 import EventHandling from "./Components/EventHandling/EventHandling";
+import { Link } from 'react-router-dom';
 
 const InnerComponent = () => {
     return(
@@ -28,6 +29,9 @@ return (
       {element}
       <h1>{testFunction()}</h1>
       <EventHandling />
+      <Link style={{display: 'block'}} to='/success'>
+        <button className='count-btn'>Submit Form</button>
+      </Link>
       <section className="movie-container">
         {/* Accessing data from json file using map */}
         {movieData.map((eachMovie) => {
