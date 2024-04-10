@@ -7,4 +7,4 @@ const LoadingAnimation = () => {
   )
 }
 
-export default LoadingAnimation
+export default LoadingAnimation;

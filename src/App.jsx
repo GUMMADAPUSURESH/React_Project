@@ -18,6 +18,8 @@ import LifeCycleDemo from "./Components/LifeCycleDemo/LifeCycleDemo";
 import DynamicRoutesUsers from "./Components/React Router/DynamicRoutesUsers";
 import DynamicRoutesUserDetails from "./Components/React Router/DynamicRoutesUserDetails";
 
+// const LifeCycleDemo = React.lazy(() => import('./Components/LifeCycleDemo/LifeCycleDemo'));
+
 const PrintTime = () => {
   const [time, setTime] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }));
 

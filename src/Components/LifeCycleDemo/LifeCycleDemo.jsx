@@ -1,6 +1,9 @@
-import React from 'react';
+import React from "react";
+import LoadingAnimation from "../Animations/LoadingAnimation";
 
-class LifeCycleDemo extends React.Component {
+const LazyLoading = React.lazy(() => import('./LazyLoading'));
+
+export class LifeCycleDemo extends React.Component {
   constructor(props) {
     super(props);
     console.log('Constructor');
@@ -8,7 +11,8 @@ class LifeCycleDemo extends React.Component {
   state = {
     a: 0
   };
-  componentWillMount = () => {
+
+  UNSAFE_componentWillMount = () => {
     console.log('Component Will mount');
   };
 
@@ -21,7 +25,7 @@ class LifeCycleDemo extends React.Component {
     return true;
   };
 
-  componentWillUpdate = () => {
+  UNSAFE_componentWillUpdate = () => {
     console.log('Component Will Update');
   };
 
@@ -42,8 +46,11 @@ class LifeCycleDemo extends React.Component {
         <h2>LifeCycleDemo</h2>
         <button className="count-btn" onClick={this.changeState}>Change State</button>
         <h2>{this.state.a}</h2>
+        <React.Suspense fallback = {<LoadingAnimation />}>
+          <LazyLoading />
+        </React.Suspense>
       </div>
-    );
+    )
   }
 }
 
