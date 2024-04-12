@@ -15,7 +15,7 @@ const MovieTitle = ( {movieTitle} ) => {
 const Netflix = ( {moviebanner, movietitle, link} ) => {
     
     return (
-        <a className="movielink" href={link}>
+        <a className="movielink" href={link} target="_blank">
             <article className="movie"> 
                 <MovieBanner movieBanner={moviebanner} />
                 <MovieTitle movieTitle={movietitle} />
