@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 export const useCount = (count) => {
     useEffect(() => {
@@ -29,28 +29,28 @@ export const useFetchAPI = (URL) => {
     const [isLoading, setIsLoading] = useState(false);
     const [isError, setIsError] = useState({status: false, msg: ''});
 
-    const fetchApi = async () => {
+    const fetchApi = useCallback( async () => {
         setIsLoading(true);
         setIsError({status: false, msg: ''})
         try {
             const response = await fetch(URL);
+            if(response.status === 404) {
+                throw new Error('Data Not Found')
+            }
             const data = await response.json();
             setApiData(data);
             setIsLoading(false);
             setIsError({status: false, msg: ''});
-            if(response.status === 404) {
-                throw new Error('Data Not Found')
-            }
         }
         catch (error) {
             setIsError({status: true, msg: error.message || 'Something went wrong...'})
             setIsLoading(false);
         }
-    }
+    }, [URL] );
 
     useEffect(() => {
         fetchApi();
-    }, [])
+    }, [fetchApi])
 
     return [apiData, isLoading, isError]
 }
