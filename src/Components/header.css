@@ -10,6 +10,12 @@
     padding: 5px;
 }
 
+@media screen and (max-width: 1100px) {
+    .header-bar {
+        width: fit-content;
+    }
+}
+
 .nav-links {
     display: flex;    
 }
