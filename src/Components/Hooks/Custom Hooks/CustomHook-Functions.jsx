@@ -2,7 +2,7 @@ import { useCallback, useEffect, useState } from "react";
 
 export const useCount = (count) => {
     useEffect(() => {
-        document.title = `React - ${count}`;
+        document.title = `Suresh-App - ${count}`;
     }, [count])
 };
 
