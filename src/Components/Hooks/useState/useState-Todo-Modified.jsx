@@ -28,8 +28,7 @@ const TodoModified = () => {
     const handleSave = (id, newText) => {
         const updatedTodoList = todoList.map(todo => {
             if (todo.id === id) {
-                return { ...todo, todo: newText.trim() };
-                
+                return { ...todo, todo: newText.trim() };   
             }
             return todo;
         });

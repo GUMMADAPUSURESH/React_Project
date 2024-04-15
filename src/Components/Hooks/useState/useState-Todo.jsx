@@ -81,7 +81,7 @@ const Todo = () => {
                                 {isEditing === id ?
                                     <li>
                                         <div className='todo-text'><input className='todo-input' type="text" value={editText} onChange={(e) => setEditText(e.target.value)} /></div>
-                                        <div className='todo-button' style={{width: '15%'}}><button className="count-btn" onClick={() => handleSave(editText)}>Save</button></div>
+                                        <div className='todo-button' style={{width: '15%'}}><button className="count-btn" onClick={() => handleSave(id, editText)}>Save</button></div>
                                         <div className='todo-button' style={{width: '15%'}}><button className="count-btn" onClick={() => handleCancel(id)}>Cancel</button></div>
                                     </li>
                                 :
