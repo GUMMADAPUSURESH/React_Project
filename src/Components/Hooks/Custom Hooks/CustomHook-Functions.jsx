@@ -32,7 +32,6 @@ export const useFetchAPI = (URL) => {
     const fetchApi = useCallback( async () => {
         setIsLoading(true);
         setIsError({status: false, msg: ''})
-        console.log("Custom Hook API Executed")
         try {
             const response = await fetch(URL);
             if(response.status === 404) {

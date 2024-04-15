@@ -43,9 +43,9 @@ const  ObjectDataChange = () => {
 
   const changeAll = () => {
     changeData({
-      firstname: "Testing First name",
-      lastname: "Testing Last name",
-      age: "Testing Age"
+      firstname: "Changed First name",
+      lastname: "Changed Last name",
+      age: "Changed Age"
     })
   }
 
