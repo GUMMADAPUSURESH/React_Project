@@ -21,7 +21,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>Welcome to React from Khushbu</h1>
+      <h1>Welcome to React from Index</h1>
       <h2>Hello from App</h2>
       <DynamicFormHandling />
       <InnerComponent />
