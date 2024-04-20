@@ -1,34 +1,34 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+  width: 12px;
+  height: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-    background: #976cd9;
-    border-radius: 5px;
+  background: #976cd9;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #9755fa; 
+  background: #9755fa;
 }
 
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    letter-spacing: 1px;
-    font-size: 100%;
-    text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-size: 100%;
+  text-align: center;
 }
