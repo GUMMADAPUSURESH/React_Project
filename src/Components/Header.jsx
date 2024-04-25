@@ -23,7 +23,7 @@ const Header = () => {
         <nav className='nav-links'>
             <ul className='nav-link-list'>
                 <li className='nav-link' onMouseEnter={() => setNavHover(true)} onMouseLeave={() => setNavHover(false)}>
-                    <a style={{textDecoration: 'none', color: 'white'}} href='/'><strong>Home</strong></a>
+                    <NavLink to='/' style={{textDecoration: 'none', color: 'white'}}><strong>Home</strong></NavLink>
                 </li>
             </ul>
             <ul className='nav-list'>
