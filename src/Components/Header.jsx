@@ -22,8 +22,12 @@ const Header = () => {
     <div className='header-bar'>
         <nav className='nav-links'>
             <ul className='nav-link-list'>
-                <li className='nav-link' onMouseEnter={() => setNavHover(true)} onMouseLeave={() => setNavHover(false)}>
-                    <NavLink to='/' style={{textDecoration: 'none', color: 'white'}}><strong>Home</strong></NavLink>
+                <li className='nav-list-link' onMouseEnter={() => setNavHover(true)} onMouseLeave={() => setNavHover(false)}>
+                    <NavLink to='/'>
+                        <button className='nav-button'>
+                            <strong>Home</strong>
+                        </button>
+                    </NavLink>
                 </li>
             </ul>
             <ul className='nav-list'>
