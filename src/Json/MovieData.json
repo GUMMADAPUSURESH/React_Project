@@ -1,38 +1,38 @@
 [
-    {
-        "id":1,
-        "movieTitle":"Unicorn Academy",
-        "movieBanner":"https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABW0CdL7BuY0VTI81TjA2iMRBryIJt2mUIsehZnbVH_AlD0DAXB5kE9-RJ9f-at0-SPB4PA8QbonFUC3eA-ND3puHO2m-7pab-mCDUA1QTbPbw89q3EkQfjcY9M4NM0rZEnGE.jpg?r=4f5",
-        "link": "https://www.netflix.com/in/title/81279322"
-    },
-    {
-        "id":2,
-        "movieTitle":"Stranger Things",
-        "movieBanner":"https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUHcKLsIF5kJTG_M0bnEhAkv3G2AfhP4uvjZ1kD1x4hz8rEL9TFj1OVKOQDVCs1hvl5Sj4cmsuJCeumJkfJkLYbNnEZhXWkAYmEEfp21CTCC97k7mLY47GN0wbvciqroTy6S.jpg?r=c68",
-        "link":"https://www.netflix.com/in/title/80057281"
-    },
-    {
-        "id":3,
-        "movieTitle":"ONE PIECE",
-        "movieBanner":"https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfXZ1RjpwsvrwiB42sUFc0MbUsSZ45haoPM5coiR3_hqHVVRJQFSyGmhUjeIHCpctbN0sd1c3TsG1CD-zp-HZHIrBxp2m1NU2Z0Rr_GYp1FvosEyi2xJx-w79vxraWCWNyPO.jpg?r=4fc",
-        "link":"https://www.netflix.com/in/title/80217863"
-    },
-    {
-        "id":4,
-        "movieTitle":"Polar",
-        "movieBanner":"https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUMUWNFnb_xEVT5xblvLb__JCkl4s-h4XOcZ-tiUc0pQpiM_4PQQHJ7gKOgoQVsHBbrw3jJI5HPTwhboO9svKbeMRUu0TvF3E1le70Rk-LD9cqgHhjoJUsj1JCTCbdOxkNrp.jpg?r=a62",
-        "link":"https://www.netflix.com/in/title/80223052"
-    },
-    {
-        "id":5,
-        "movieTitle":"Life on Our Planet",
-        "movieBanner":"https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYI2M9KSNUVwKYDNSXApT620MOXRxSXT7v4wG_i-oMR3Ab6luxs9Ae3xFtIhrMpT2px4bZX51Nd8Gm-1se6vP6Gtzvo6MQO9PJJ24JqjR3nsMCY956oO_2AkU5Ex-IVupWyZ.jpg?r=4ba",
-        "link":"https://www.netflix.com/in/title/80213846"
-    },
-    {
-        "id":6,
-        "movieTitle":"MH370: The Plane That Disappeared",
-        "movieBanner":"https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXy8JQ3Up5Psl_YhMy0NrLTYIPzZBry1rKUjrI4HaYXALx3qFoocZsLsytUnhg6g-JAsgZGgQQi8OmsWRT-ay8U0bEq0Uu3bVJsv6snskHTs1y0h6CZDeT5E3B4hMY1XLuyI.jpg?r=5af",
-        "link":"https://www.netflix.com/in/title/81307163"
-    }
+  {
+    "id": 1,
+    "movieTitle": "Unicorn Academy",
+    "movieBanner": "https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABW0CdL7BuY0VTI81TjA2iMRBryIJt2mUIsehZnbVH_AlD0DAXB5kE9-RJ9f-at0-SPB4PA8QbonFUC3eA-ND3puHO2m-7pab-mCDUA1QTbPbw89q3EkQfjcY9M4NM0rZEnGE.jpg?r=4f5",
+    "link": "https://www.netflix.com/in/title/81279322"
+  },
+  {
+    "id": 2,
+    "movieTitle": "Stranger Things",
+    "movieBanner": "https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUHcKLsIF5kJTG_M0bnEhAkv3G2AfhP4uvjZ1kD1x4hz8rEL9TFj1OVKOQDVCs1hvl5Sj4cmsuJCeumJkfJkLYbNnEZhXWkAYmEEfp21CTCC97k7mLY47GN0wbvciqroTy6S.jpg?r=c68",
+    "link": "https://www.netflix.com/in/title/80057281"
+  },
+  {
+    "id": 3,
+    "movieTitle": "ONE PIECE",
+    "movieBanner": "https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfXZ1RjpwsvrwiB42sUFc0MbUsSZ45haoPM5coiR3_hqHVVRJQFSyGmhUjeIHCpctbN0sd1c3TsG1CD-zp-HZHIrBxp2m1NU2Z0Rr_GYp1FvosEyi2xJx-w79vxraWCWNyPO.jpg?r=4fc",
+    "link": "https://www.netflix.com/in/title/80217863"
+  },
+  {
+    "id": 4,
+    "movieTitle": "Polar",
+    "movieBanner": "https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABUMUWNFnb_xEVT5xblvLb__JCkl4s-h4XOcZ-tiUc0pQpiM_4PQQHJ7gKOgoQVsHBbrw3jJI5HPTwhboO9svKbeMRUu0TvF3E1le70Rk-LD9cqgHhjoJUsj1JCTCbdOxkNrp.jpg?r=a62",
+    "link": "https://www.netflix.com/in/title/80223052"
+  },
+  {
+    "id": 5,
+    "movieTitle": "Life on Our Planet",
+    "movieBanner": "https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABYI2M9KSNUVwKYDNSXApT620MOXRxSXT7v4wG_i-oMR3Ab6luxs9Ae3xFtIhrMpT2px4bZX51Nd8Gm-1se6vP6Gtzvo6MQO9PJJ24JqjR3nsMCY956oO_2AkU5Ex-IVupWyZ.jpg?r=4ba",
+    "link": "https://www.netflix.com/in/title/80213846"
+  },
+  {
+    "id": 6,
+    "movieTitle": "MH370: The Plane That Disappeared",
+    "movieBanner": "https://occ-0-2086-2164.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABXy8JQ3Up5Psl_YhMy0NrLTYIPzZBry1rKUjrI4HaYXALx3qFoocZsLsytUnhg6g-JAsgZGgQQi8OmsWRT-ay8U0bEq0Uu3bVJsv6snskHTs1y0h6CZDeT5E3B4hMY1XLuyI.jpg?r=5af",
+    "link": "https://www.netflix.com/in/title/81307163"
+  }
 ]

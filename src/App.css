@@ -1,37 +1,37 @@
 .time {
-    color: red;
-    background-color: white;
-    width: fit-content;
-    margin: auto;
+  color: red;
+  background-color: white;
+  width: fit-content;
+  margin: auto;
 }
 
 @media screen and (min-width: 769px) {
-    .time {
-        position: fixed;
-        top: 8vh;
-        right: 0;
-    }
+  .time {
+    position: fixed;
+    top: 8vh;
+    right: 0;
+  }
 }
 
 .movie-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
-    width: 100%;
-    margin: 1.5rem auto;
-    max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+  margin: 1.5rem auto;
+  max-width: 1200px;
 }
 
 @media screen and (min-width: 992px) {
-    .movie-container {
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1.5rem;
-    }
+  .movie-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .movie-container {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
+  .movie-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
 }

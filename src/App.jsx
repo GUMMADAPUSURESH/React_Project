@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './App.css';
+import "./App.css";
 import UseContextParent from "./Components/Hooks/useContext/useContext-parent";
 import UseCallBackExample from "./Components/Hooks/useCallback & React.memo/useCallback&React.memoExample";
 import Header from "./Components/Header";
@@ -21,11 +21,25 @@ import DynamicRoutesUserDetails from "./Components/React Router/DynamicRoutesUse
 // const LifeCycleDemo = React.lazy(() => import('./Components/LifeCycleDemo/LifeCycleDemo'));
 
 const PrintTime = () => {
-  const [time, setTime] = useState(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }));
+  const [time, setTime] = useState(
+    new Date().toLocaleTimeString([], {
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
+    })
+  );
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setTime(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true }));
+      setTime(
+        new Date().toLocaleTimeString([], {
+          hour: "2-digit",
+          minute: "2-digit",
+          second: "2-digit",
+          hour12: true,
+        })
+      );
     }, 1000); // Update time every second
 
     // Clean up function to clear interval when component unmounts
@@ -37,7 +51,6 @@ const PrintTime = () => {
       <h3 className="time">{time}</h3>
     </React.Fragment>
   );
-
 };
 
 function App() {
@@ -46,39 +59,39 @@ function App() {
       <Header />
       <PrintTime />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path="/" element={<Home />} />
         {/* useState Examples */}
-        <Route path='/useState' element={<UseStateIndex />} />
+        <Route path="/useState" element={<UseStateIndex />} />
 
         {/* useEffect Examples */}
-        <Route path='/useEffect' element={<UseEffectIndex />} />
-        
+        <Route path="/useEffect" element={<UseEffectIndex />} />
+
         {/* useContext Examples */}
-        <Route path='/useContext' element={<UseContextParent />} />
+        <Route path="/useContext" element={<UseContextParent />} />
 
         {/* useReducer Examples */}
-        <Route path='/useReducer' element={<UseReducerExample1 />} />
-        
+        <Route path="/useReducer" element={<UseReducerExample1 />} />
+
         {/* useCallback & React.memo Examples */}
-        <Route path='/useCallback' element={<UseCallBackExample />} />
-        
+        <Route path="/useCallback" element={<UseCallBackExample />} />
+
         {/* Custom Hook Examples */}
-        <Route path='/customHooks' element={<CustomHookIndex />} />
+        <Route path="/customHooks" element={<CustomHookIndex />} />
 
         {/* React Router Examples */}
-        <Route path='/success' element={<Success />} />
+        <Route path="/success" element={<Success />} />
 
-        <Route path='/nestedRoutes' element={<NestedRouteIndex />}>
+        <Route path="/nestedRoutes" element={<NestedRouteIndex />}>
           <Route index element={<NestedRoute1 />} />
-          <Route path='1' element={<NestedRoute1 />} />
-          <Route path='2' element={<NestedRoute2 />} />
+          <Route path="1" element={<NestedRoute1 />} />
+          <Route path="2" element={<NestedRoute2 />} />
         </Route>
 
         <Route path="/users" element={<DynamicRoutesUsers />} />
         <Route path="/users/:userID" element={<DynamicRoutesUserDetails />} />
 
         {/* React Life Cycle Examples */}
-        <Route path='/lifecycle' element={<LifeCycleDemo />} />
+        <Route path="/lifecycle" element={<LifeCycleDemo />} />
 
         {/* Default Router */}
         <Route path="*" element={<NotFound />} />

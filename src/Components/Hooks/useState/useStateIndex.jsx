@@ -1,10 +1,10 @@
-import React from 'react'
-import Count from './useState-Count';
-import ObjectDataChange from './useState-advanced';
-import ConditionalUseState from './useState-ConditionalRendering';
-import FormHandling from './useState-formHandling';
-import Todo from './useState-Todo';
-import TodoModified from './useState-Todo-Modified';
+import React from "react";
+import Count from "./useState-Count";
+import ObjectDataChange from "./useState-advanced";
+import ConditionalUseState from "./useState-ConditionalRendering";
+import FormHandling from "./useState-formHandling";
+import Todo from "./useState-Todo";
+import TodoModified from "./useState-Todo-Modified";
 
 const Index = () => {
   return (
@@ -16,7 +16,7 @@ const Index = () => {
       <Todo />
       <TodoModified />
     </div>
-  )
-}
+  );
+};
 
-export default Index
+export default Index;
