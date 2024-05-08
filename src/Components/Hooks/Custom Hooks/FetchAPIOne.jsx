@@ -1,7 +1,7 @@
 import React from "react";
 import { useFetchAPI } from "./CustomHook-Functions";
 
-const URL = "https://jsonplaceholder.typicode.com/user";
+const URL = "https://jsonplaceholder.typicode.com/users";
 
 const FetchAPIOne = () => {
   const [users, isLoading, isError] = useFetchAPI(URL);

@@ -55,3 +55,40 @@ export const useFetchAPI = (URL) => {
 
   return [apiData, isLoading, isError];
 };
+
+// export const useFetchAPI = (URL) => {
+//   const [apiData, setApiData] = useState([]);
+//   const [isLoading, setIsLoading] = useState(false);
+//   const [isError, setIsError] = useState({ status: false, msg: "" });
+
+//   const fetchApi = useCallback(() => {
+//     setIsLoading(true);
+//     const xhr = new XMLHttpRequest();
+//     console.log(xhr);
+//     xhr.open("GET", URL, true);
+
+//     xhr.onload = function () {
+//       if (xhr.status === 200) {
+//         const data = JSON.parse(xhr.responseText);
+//         setApiData(data);
+//         setIsError({ status: false, msg: "" });
+//       } else {
+//         setIsError({ status: true, msg: "Data Not Found" });
+//       }
+//       setIsLoading(false);
+//     };
+
+//     xhr.onerror = function () {
+//       setIsError({ status: true, msg: "Something went wrong..." });
+//       setIsLoading(false);
+//     };
+
+//     xhr.send();
+//   }, [URL]);
+
+//   useEffect(() => {
+//     fetchApi();
+//   }, [fetchApi]);
+
+//   return [apiData, isLoading, isError];
+// };

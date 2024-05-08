@@ -7,7 +7,7 @@ const Count = () => {
   const increase = () => {
     setCount((prevCount) => prevCount + 1);
 
-    setCount((prevCount) => {
+    setCount(function(prevCount) {
       return prevCount + 1;
     });
 
