@@ -8,7 +8,7 @@ const UseEffectIndex = () => {
   return (
     <div>
       {/* <LocalAPI /> */}
-      <UseEffectBasic />s
+      <UseEffectBasic />
       <FetchAPI />
       <CocktailAPIFetch />
     </div>
