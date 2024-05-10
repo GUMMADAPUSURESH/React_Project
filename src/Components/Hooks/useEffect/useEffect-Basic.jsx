@@ -36,7 +36,6 @@ const UseEffectBasic = () => {
           +
         </button>
       </div>
-      <hr></hr>
     </>
   );
 };

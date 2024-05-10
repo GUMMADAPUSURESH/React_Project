@@ -81,7 +81,6 @@ const CocktailAPIFetch = () => {
           )}
         </>
       )}
-      <hr />
     </>
   );
 };

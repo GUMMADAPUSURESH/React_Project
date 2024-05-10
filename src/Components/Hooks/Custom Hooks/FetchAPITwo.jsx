@@ -33,7 +33,6 @@ const FetchAPITwo = () => {
           <hr></hr>
         </>
       )}
-      <hr></hr>
     </div>
   );
 };

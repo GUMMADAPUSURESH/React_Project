@@ -20,7 +20,6 @@ const CustomHookCounterTwo = () => {
         Reset count
       </button>
       &nbsp;
-      <hr></hr>
     </div>
   );
 };

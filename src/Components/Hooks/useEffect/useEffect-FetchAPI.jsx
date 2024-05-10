@@ -141,7 +141,6 @@ const FetchAPI = () => {
             ))}
         </>
       )}
-      <hr></hr>
     </div>
   );
 };

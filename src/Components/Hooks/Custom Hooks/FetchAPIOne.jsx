@@ -32,7 +32,6 @@ const FetchAPIOne = () => {
               })}
             </ul>
           )}
-          <hr></hr>
         </>
       )}
     </div>

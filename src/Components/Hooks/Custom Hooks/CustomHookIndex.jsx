@@ -1,6 +1,5 @@
 import React from "react";
 import CustomHookOne from "./CustomHook-Example-1";
-import CustomHookTwo from "./CustomHook-Example-1-Test";
 import CustomHookCounterOne from "./CustomHook-Counter-1";
 import CustomHookCounterTwo from "./CustomHook-Counter-2";
 import FetchAPIOne from "./FetchAPIOne";
@@ -10,10 +9,13 @@ const CustomHookIndex = () => {
   return (
     <div>
       <CustomHookOne />
-      <CustomHookTwo />
+      <hr/>
       <CustomHookCounterOne />
+      <hr/>
       <CustomHookCounterTwo />
+      <hr/>
       <FetchAPIOne />
+      <hr/>
       <FetchAPITwo />
     </div>
   );

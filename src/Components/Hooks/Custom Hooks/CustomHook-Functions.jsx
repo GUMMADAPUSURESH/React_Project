@@ -32,7 +32,7 @@ export const useFetchAPI = (URL) => {
   const fetchApi = useCallback(async () => {
     setIsLoading(true);
     try {
-      const response = await fetch(URL);
+      const response = await fetch(URL, { method: 'GET' });
       if (response.status === 404) {
         throw new Error("Data Not Found");
       }
